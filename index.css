@@ -135,6 +135,11 @@ body {
     color: #ffffff;
 }
 
+.what-img{
+    height: 150px;
+    width: 250px;
+}
+
 /* Contact Section */
 .contact-section {
     padding: 50px;
@@ -150,9 +155,9 @@ body {
     gap: 20px;
 }
  .contact-image{
-    height: 160px;
     width: 150px;
-    border-radius: 5px;
+    height: 150px;
+    border-radius: 70%;
  }
 .contact-info {
     text-align: left;
