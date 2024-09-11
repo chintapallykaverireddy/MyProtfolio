@@ -1,0 +1,164 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2b2f3a;
+    color: #ffffff;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #3a3f4b;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 70%;
+}
+
+.about-content {
+    max-width: 600px;
+    text-align: left;
+}
+
+/* Skills */
+.skills-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.skill-card {
+    background-color: #5b606a;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+/* Services Section */
+.services-section {
+    padding: 50px;
+    background-color: #2b2f3a;
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.service-card {
+    background-color: #3a3f4b;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 250px;
+    text-align: left;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+    padding: 50px;
+    background-color: #3a3f4b;
+    color: #ffffff;
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    background-color: #4a4f5a;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.project-content {
+    padding: 15px;
+}
+
+.project-category {
+    color: #a3ff12;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.project-content h4 {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #a3ff12;
+    font-weight: bold;
+}
+
+/* Statistics Section */
+.statistics-section {
+    padding: 50px;
+    background-color: #2b2f3a;
+    text-align: center;
+}
+
+.statistics-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.statistic-card {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 50px;
+    background-color: #3a3f4b;
+    color: #ffffff;
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+ .contact-image{
+    height: 160px;
+    width: 150px;
+    border-radius: 5px;
+ }
+.contact-info {
+    text-align: left;
+}
+
+footer {
+    margin-top: 20px;
+    color: #a3ff12;
+}
